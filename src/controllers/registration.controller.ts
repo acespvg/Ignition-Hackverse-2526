@@ -10,7 +10,6 @@ export const registerTeam = async (req: Request, res: Response) => {
       teamMembers,
       paymentScreenshot,
       pptLink,
-      videoLink,
       registrationStatus,
     } = req.body;
 
@@ -25,7 +24,6 @@ export const registerTeam = async (req: Request, res: Response) => {
         teamName,
         teamSize,
         pptLink,
-        videoLink: videoLink ?? null,
         paymentScreenshot,
         registrationStatus,
 

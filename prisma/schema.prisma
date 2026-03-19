@@ -12,7 +12,6 @@ model Registration {
   teamName           String
   teamSize           Int
   pptLink            String
-  videoLink          String?
   paymentScreenshot  String
   registrationStatus String   @default("pending")
 
