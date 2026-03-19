@@ -25,7 +25,7 @@ export const registerTeam = async (req: Request, res: Response) => {
         teamName,
         teamSize,
         pptLink,
-        videoLink,
+        videoLink: videoLink ?? null,
         paymentScreenshot,
         registrationStatus,
 
