@@ -38,6 +38,7 @@ model Participant {
   courseSpecialization String
   graduationYear       String
   receipt              String?
+  isPresent            Boolean @default(false)
 
   // ✅ Leader back relation (no FK here)
   registrationLeader Registration? @relation("LeaderRelation")
